@@ -1,0 +1,18 @@
+{
+ "nom": "D v6 : MS-TCN complet (3 étages x 9 couches + DeepSets, 3 graines, toutes sources), hystérésis + recalage des bornes",
+ "w_v4": 0.0,
+ "decode": {
+  "kind": "hyst",
+  "p_hi": 0.95,
+  "p_lo": 0.5,
+  "min_dur_s": 3.0,
+  "smooth_s": 0.6,
+  "merge_s": 1.0,
+  "thr_b": 0.2
+ },
+ "p_lo": 0.5,
+ "p_hi": 0.95,
+ "min_dur_s": 3.0,
+ "smooth_s": 0.6,
+ "thr_b": 0.2
+}

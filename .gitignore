@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.pyc
+/build/
+# match data: never commit it (licensed for the competition only)
+/data/

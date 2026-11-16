@@ -1,0 +1,5 @@
+# Étapes 1 et 3 (atd_ball_px.py, video_ball.py, CPU) — versions de la vérification du 2026-11-13, Python 3.14.3
+# Voir outputs/intermediaires/README_rfdetr.md
+numpy==2.5.4
+scipy==1.18.1
+pandas==3.1.1

@@ -1,0 +1,31 @@
+[project]
+name = "pathcrf_ours"
+version = "0.1.0"
+description = "Clean-room re-implementation of PathCRF (Kim et al., KDD 2026): ball-free possession path inference"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.5",
+    "numpy",
+    "pandas>=2,<3",
+    "pyarrow",
+    "scipy",
+    "rdp",
+    "kloppy==3.19.1",
+    "tqdm",
+    "matplotlib",
+    "mplsoccer",
+    "lxml",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["pathcrf_ours*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

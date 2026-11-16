@@ -1,0 +1,7 @@
+# Étape 2 (détection RF-DETR, GPU) — à installer dans l'image pytorch/pytorch:2.5.1-cuda12.4-cudnn9-runtime
+# Voir outputs/intermediaires/README_rfdetr.md
+rfdetr==1.10.1
+transformers==5.17.0
+supervision==0.30.5
+# Non figé lors de l'exécution d'origine : 5.0.0.93 est la dernière version au 2026-11-13, à confirmer.
+opencv-python-headless==5.0.0.93
